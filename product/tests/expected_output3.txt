@@ -1,0 +1,2 @@
+To multiply three numbers.
+Enter the first number: Enter the second number: Enter the third number: The product of 10, 0 and 8 is 0.

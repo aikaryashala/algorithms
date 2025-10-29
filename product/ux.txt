@@ -1,0 +1,5 @@
+To multiply three numbers.
+Enter the first number: 2
+Enter the second number: 3
+Enter the third number: 4
+The product of 2, 3 and 4 is 24.
