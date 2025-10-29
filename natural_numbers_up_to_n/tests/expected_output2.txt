@@ -1,0 +1,1 @@
+Up to which number you want to print natural numbers? The first 10 natural numbers are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.

@@ -1,0 +1,1 @@
+Up to which number you want to print natural numbers? The first 1 natural numbers are 1.

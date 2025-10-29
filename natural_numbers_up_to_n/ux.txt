@@ -1,0 +1,2 @@
+Up to which number you want to print natural numbers? 5
+The first 5 natural numbers are 1, 2, 3, 4, 5.
