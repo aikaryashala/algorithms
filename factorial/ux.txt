@@ -1,0 +1,2 @@
+Enter a number to compute it's factorial: 3
+The factorial of 3 is 6.
