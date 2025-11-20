@@ -1,0 +1,1 @@
+Up to which number you want to print the square series? The square series up to 1 is 1.

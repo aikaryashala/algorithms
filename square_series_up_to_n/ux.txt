@@ -1,0 +1,2 @@
+Up to which number you want to print the square series? 10
+The square series up to 10 is 1, 4, 9.
