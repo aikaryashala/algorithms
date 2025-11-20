@@ -1,0 +1,1 @@
+How many terms you want to print in the square series? The first 10 terms in the square series are 1, 4, 9, 16, 25, 36, 49, 64, 81, 100.

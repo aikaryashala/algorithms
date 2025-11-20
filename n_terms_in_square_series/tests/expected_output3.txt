@@ -1,0 +1,1 @@
+How many terms you want to print in the square series? The first 1 terms in the square series are 1.
