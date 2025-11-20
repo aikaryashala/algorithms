@@ -6,7 +6,8 @@ EXECUTABLE = "./square_series_up_to_n"
 TEST_FILES = [
     "../tests/input1.txt", "../tests/expected_output1.txt",
     "../tests/input2.txt", "../tests/expected_output2.txt",
-    "../tests/input3.txt", "../tests/expected_output3.txt"
+    "../tests/input3.txt", "../tests/expected_output3.txt",
+    "../tests/input4.txt", "../tests/expected_output4.txt"
 ]
 
 @check50.check()
@@ -30,6 +31,10 @@ def square_series_up_to_n_test2():
 @check50.check(exists_and_compiles)
 def square_series_up_to_n_test3():
     test_input_output("input3.txt", "expected_output3.txt")
+
+@check50.check(exists_and_compiles)
+def square_series_up_to_n_test4():
+    test_input_output("input4.txt", "expected_output4.txt")
 
 def test_input_output(input_file, output_file):
     """A function to test a single input/output pair"""
