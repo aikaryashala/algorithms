@@ -1,0 +1,1 @@
+How many multiples of 7 you want to print? The first 1 multiples of 7 are 7.
