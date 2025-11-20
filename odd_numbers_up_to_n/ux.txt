@@ -1,0 +1,2 @@
+Up to which number you want to print odd numbers? 6
+The odd numbers up to 6 are 1, 3, 5.
