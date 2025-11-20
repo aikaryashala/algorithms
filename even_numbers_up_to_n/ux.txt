@@ -1,0 +1,2 @@
+Up to which number you want to print even numbers? 5
+The even numbers up to 5 are 0, 2, 4.
