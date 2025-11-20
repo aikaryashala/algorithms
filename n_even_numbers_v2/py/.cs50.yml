@@ -1,7 +1,7 @@
 check50:
   files: &check50_files
     - !exclude "*"
-    - !require n_even_numbers.py
+    - !require n_even_numbers_v2.py
 
 submit50:
   files: *check50_files

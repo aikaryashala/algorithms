@@ -1,7 +1,7 @@
 check50:
   files: &check50_files
     - !exclude "*"
-    - !require n_odd_numbers.c
+    - !require n_odd_numbers_v2.c
 
 submit50:
   files: *check50_files

@@ -1,7 +1,7 @@
 import check50
 import check50.c
 
-EXECUTABLE = "./n_even_numbers"
+EXECUTABLE = "./n_even_numbers_v2"
 
 # Include files at module level (executed once)
 TEST_FILES = [
@@ -12,11 +12,11 @@ TEST_FILES = [
 
 @check50.check()
 def exists_and_compiles():
-    """n_even_numbers.c exists"""
-    check50.exists("n_even_numbers.c")
+    """n_even_numbers_v2.c exists"""
+    check50.exists("n_even_numbers_v2.c")
 
-    """n_even_numbers.c compiles"""
-    check50.c.compile("n_even_numbers.c", lcs50=False)
+    """n_even_numbers_v2.c compiles"""
+    check50.c.compile("n_even_numbers_v2.c", lcs50=False)
 
     include_test_files()
 

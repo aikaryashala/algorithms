@@ -1,6 +1,6 @@
 import check50
 
-EXECUTABLE = "python3 n_even_numbers.py"
+EXECUTABLE = "python3 n_even_numbers_v2.py"
 
 # Include files at module level (executed once)
 TEST_FILES = [
@@ -11,8 +11,8 @@ TEST_FILES = [
 
 @check50.check()
 def exists_and_compiles():
-    """n_even_numbers.py exists"""
-    check50.exists("n_even_numbers.py")
+    """n_even_numbers_v2.py exists"""
+    check50.exists("n_even_numbers_v2.py")
     include_test_files()
 
 @check50.check(exists_and_compiles)
