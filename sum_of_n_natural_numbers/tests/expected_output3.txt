@@ -1,0 +1,1 @@
+Up to which number you want to compute the sum of natural numbers? The sum of first 1 natural numbers is 1.

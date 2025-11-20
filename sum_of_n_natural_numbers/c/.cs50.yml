@@ -1,0 +1,7 @@
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !require sum_of_n_natural_numbers.c
+
+submit50:
+  files: *check50_files

@@ -1,0 +1,2 @@
+Up to which number you want to compute the sum of natural numbers? 5
+The sum of first 5 natural numbers is 15.
