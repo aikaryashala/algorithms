@@ -1,0 +1,7 @@
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !require n_power_n_series_up_to_n.py
+
+submit50:
+  files: *check50_files

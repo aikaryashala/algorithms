@@ -1,0 +1,2 @@
+Up to which number you want to print the N power N series? 30
+The N power N series up to 30 is 1, 4, 27.
