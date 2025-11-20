@@ -1,0 +1,1 @@
+Up to which number you want to print the sum of even numbers? The sum of even numbers up to 5 is 6.
