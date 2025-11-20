@@ -1,0 +1,2 @@
+Enter a number to compute the power of itself: 3
+3 to the power of 3 is 27.
