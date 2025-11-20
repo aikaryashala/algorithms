@@ -1,0 +1,1 @@
+How many odd numbers you want to print? The first 1 odd numbers are 1.
