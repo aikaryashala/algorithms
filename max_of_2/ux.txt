@@ -1,0 +1,5 @@
+To compare two numbers and print which is greater.
+Enter the first number: 5
+Enter the second number: 3
+5 is greater than 3.
+
