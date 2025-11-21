@@ -1,0 +1,2 @@
+To find maximum of three numbers.
+Enter the first number: Enter the second number: Enter the third number: The greatest of 55, 5 and 555 is 555.
