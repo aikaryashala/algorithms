@@ -1,0 +1,2 @@
+To find maximum of three numbers.
+Enter the first number: Enter the second number: Enter the third number: The greatest of 100, 50 and 25 is 100.
