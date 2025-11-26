@@ -356,6 +356,16 @@ even_numbers_up_to_n/
 4. **Exact Matching**: Expected outputs must match exactly (including whitespace)
 5. **No Dependencies**: Compile C without cs50 library (`lcs50=False`)
 
+## Git Workflow
+
+### Commit Messages
+- Use only the exact commit message provided
+- **DO NOT** append extra text such as:
+  - "🤖 Generated with [Claude Code](https://claude.com/claude-code)"
+  - "Co-Authored-By: Claude <noreply@anthropic.com>"
+  - Any other attribution or metadata
+- Keep commit messages clean and concise
+
 ## Troubleshooting
 
 ### Common Issues
