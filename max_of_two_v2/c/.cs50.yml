@@ -1,7 +1,7 @@
 check50:
   files: &check50_files
     - !exclude "*"
-    - !require max_of_2_v2.c
+    - !require max_of_two_v2.c
 
 submit50:
   files: *check50_files

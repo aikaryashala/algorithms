@@ -1,7 +1,7 @@
 import check50
 import check50.c
 
-EXECUTABLE = "./max_of_2"
+EXECUTABLE = "./max_of_two"
 
 TEST_FILES = [
     "../tests/input1.txt", "../tests/expected_output1.txt",
@@ -10,20 +10,20 @@ TEST_FILES = [
 
 @check50.check()
 def exists_and_compiles():
-    """max_of_2.c exists"""
-    check50.exists("max_of_2.c")
+    """max_of_two.c exists"""
+    check50.exists("max_of_two.c")
 
-    """max_of_2.c compiles"""
-    check50.c.compile("max_of_2.c", lcs50=False)
+    """max_of_two.c compiles"""
+    check50.c.compile("max_of_two.c", lcs50=False)
 
     include_test_files()
 
 @check50.check(exists_and_compiles)
-def max_of_2_5_3():
+def max_of_two_5_3():
     test_input_output("input1.txt", "expected_output1.txt")
 
 @check50.check(exists_and_compiles)
-def max_of_2_3_8():
+def max_of_two_3_8():
     test_input_output("input2.txt", "expected_output2.txt")
 
 def test_input_output(input_file, output_file):

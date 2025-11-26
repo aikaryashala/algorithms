@@ -1,7 +1,7 @@
 check50:
   files: &check50_files
     - !exclude "*"
-    - !require max_of_2.py
+    - !require max_of_two.py
 
 submit50:
   files: *check50_files

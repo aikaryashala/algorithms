@@ -1,6 +1,6 @@
 import check50
 
-EXECUTABLE = "python3 max_of_2_v2.py"
+EXECUTABLE = "python3 max_of_two_v2.py"
 
 TEST_FILES = [
     "../tests/input1.txt", "../tests/expected_output1.txt",
@@ -9,16 +9,16 @@ TEST_FILES = [
 
 @check50.check()
 def exists_and_compiles():
-    """max_of_2_v2.py exists"""
-    check50.exists("max_of_2_v2.py")
+    """max_of_two_v2.py exists"""
+    check50.exists("max_of_two_v2.py")
     include_test_files()
 
 @check50.check(exists_and_compiles)
-def max_of_2_v2_5_3():
+def max_of_two_v2_5_3():
     test_input_output("input1.txt", "expected_output1.txt")
 
 @check50.check(exists_and_compiles)
-def max_of_2_v2_3_8():
+def max_of_two_v2_3_8():
     test_input_output("input2.txt", "expected_output2.txt")
 
 def test_input_output(input_file, output_file):
