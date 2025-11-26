@@ -16,19 +16,19 @@ def exists_and_compiles():
     include_test_files()
 
 @check50.check(exists_and_compiles)
-def factorial_test1():
+def factorial_10():
     test_input_output("input1.txt", "expected_output1.txt")
 
 @check50.check(exists_and_compiles)
-def factorial_test2():
+def factorial_5():
     test_input_output("input2.txt", "expected_output2.txt")
 
 @check50.check(exists_and_compiles)
-def factorial_test3():
+def factorial_1():
     test_input_output("input3.txt", "expected_output3.txt")
 
 @check50.check(exists_and_compiles)
-def factorial_test4():
+def factorial_0():
     test_input_output("input4.txt", "expected_output4.txt")
 
 def test_input_output(input_file, output_file):

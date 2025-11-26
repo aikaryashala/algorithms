@@ -14,11 +14,11 @@ def exists_and_compiles():
     include_test_files()
 
 @check50.check(exists_and_compiles)
-def max_of_2_v2_test1():
+def max_of_2_v2_5_3():
     test_input_output("input1.txt", "expected_output1.txt")
 
 @check50.check(exists_and_compiles)
-def max_of_2_v2_test2():
+def max_of_2_v2_3_8():
     test_input_output("input2.txt", "expected_output2.txt")
 
 def test_input_output(input_file, output_file):

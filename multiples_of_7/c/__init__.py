@@ -20,15 +20,15 @@ def exists_and_compiles():
     include_test_files()
 
 @check50.check(exists_and_compiles)
-def multiples_of_7_test1():
+def multiples_of_7_3():
     test_input_output("input1.txt", "expected_output1.txt")
 
 @check50.check(exists_and_compiles)
-def multiples_of_7_test2():
+def multiples_of_7_5():
     test_input_output("input2.txt", "expected_output2.txt")
 
 @check50.check(exists_and_compiles)
-def multiples_of_7_test3():
+def multiples_of_7_1():
     test_input_output("input3.txt", "expected_output3.txt")
 
 def test_input_output(input_file, output_file):

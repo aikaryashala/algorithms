@@ -21,19 +21,19 @@ def exists_and_compiles():
     include_test_files()
 
 @check50.check(exists_and_compiles)
-def n_terms_in_square_series_test1():
+def n_terms_in_square_series_5():
     test_input_output("input1.txt", "expected_output1.txt")
 
 @check50.check(exists_and_compiles)
-def n_terms_in_square_series_test2():
+def n_terms_in_square_series_10():
     test_input_output("input2.txt", "expected_output2.txt")
 
 @check50.check(exists_and_compiles)
-def n_terms_in_square_series_test3():
+def n_terms_in_square_series_1():
     test_input_output("input3.txt", "expected_output3.txt")
 
 @check50.check(exists_and_compiles)
-def n_terms_in_square_series_test4():
+def n_terms_in_square_series_3():
     test_input_output("input4.txt", "expected_output4.txt")
 
 def test_input_output(input_file, output_file):

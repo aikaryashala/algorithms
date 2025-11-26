@@ -18,27 +18,27 @@ def exists_and_compiles():
     include_test_files()
 
 @check50.check(exists_and_compiles)
-def max_of_3_v2_test1():
+def max_of_3_v2_5_55_555():
     test_input_output("input1.txt", "expected_output1.txt")
 
 @check50.check(exists_and_compiles)
-def max_of_3_v2_test2():
+def max_of_3_v2_100_50_25():
     test_input_output("input2.txt", "expected_output2.txt")
 
 @check50.check(exists_and_compiles)
-def max_of_3_v2_test3():
+def max_of_3_v2_10_200_50():
     test_input_output("input3.txt", "expected_output3.txt")
 
 @check50.check(exists_and_compiles)
-def max_of_3_v2_test4():
+def max_of_3_v2_55_5_555():
     test_input_output("input4.txt", "expected_output4.txt")
 
 @check50.check(exists_and_compiles)
-def max_of_3_v2_test5():
+def max_of_3_v2_100_25_50():
     test_input_output("input5.txt", "expected_output5.txt")
 
 @check50.check(exists_and_compiles)
-def max_of_3_v2_test6():
+def max_of_3_v2_50_200_10():
     test_input_output("input6.txt", "expected_output6.txt")
 
 def test_input_output(input_file, output_file):

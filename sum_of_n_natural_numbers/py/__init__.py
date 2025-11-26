@@ -15,15 +15,15 @@ def exists_and_compiles():
     include_test_files()
 
 @check50.check(exists_and_compiles)
-def sum_of_n_natural_numbers_test1():
+def sum_of_n_natural_numbers_5():
     test_input_output("input1.txt", "expected_output1.txt")
 
 @check50.check(exists_and_compiles)
-def sum_of_n_natural_numbers_test2():
+def sum_of_n_natural_numbers_10():
     test_input_output("input2.txt", "expected_output2.txt")
 
 @check50.check(exists_and_compiles)
-def sum_of_n_natural_numbers_test3():
+def sum_of_n_natural_numbers_1():
     test_input_output("input3.txt", "expected_output3.txt")
 
 def test_input_output(input_file, output_file):
