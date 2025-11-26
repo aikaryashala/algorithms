@@ -16,15 +16,15 @@ def exists_and_compiles():
     include_test_files()
 
 @check50.check(exists_and_compiles)
-def product_test1():
+def product_2_3_4():
     test_input_output("input1.txt", "expected_output1.txt");
 
 @check50.check(exists_and_compiles)
-def product_test2():
+def product_5_6_7():
     test_input_output("input2.txt", "expected_output2.txt");
 
 @check50.check(exists_and_compiles)
-def product_test3():
+def product_10_0_8():
     test_input_output("input3.txt", "expected_output3.txt");
 
 
