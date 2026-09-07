@@ -1,0 +1,7 @@
+To print parts of a given string.
+Enter the string: rollno-57: lanka pavan kumar
+The parts are:
+57
+lanka
+pavan kumar
+

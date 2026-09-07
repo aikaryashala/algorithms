@@ -1,0 +1,5 @@
+To print parts of a given string.
+Enter the string: The parts are:
+100
+ravi
+kumar reddy
